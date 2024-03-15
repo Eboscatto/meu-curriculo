@@ -79,17 +79,17 @@
 
 .header-menu {
     display: flex;
-    height: 100%;
+    height: 100vw;
     justify-content: center;
     align-items: center;
 }
 
 #sobre {
-    width: 100%;
+    width: 100vw;
     height: 50vh;
-    padding: 4em;
+    padding: 1em 4em;
     flex-wrap: wrap; 
-    font-size: 20px; 
+    font-size: 15px; 
 }
 
 #sobre img {
@@ -128,7 +128,8 @@
 #escolaridade {
     width: 100%;
     height: 50vh;
-    padding: 4em;
+    padding: 2em 4em;
+    margin-left: 15px;
     flex-wrap: wrap;
 }
 
@@ -139,27 +140,26 @@
 
 #escolaridade li {
     padding-right: 2em;
-    font-size: 20px;
+    font-size: 18px;   
 }
 
 .formacao_titulo-lista{
-    font-size: 1.3em;
+    font-size: 1em;     
 }
 
 #cursos {
     width: 100%;
     height: 50vh;
     background-color:var(--azul);
-    color:var(--branco);
-    display: flex; 
-    align-items: center;
-    padding: 0 4em;
+    color:var(--branco);    
+    padding: 1em 4em;
     justify-content: space-between; 
     flex-wrap: wrap;  
 }
 
-
-#cursos ul {    
+#cursos ul {     
+    padding-top: 2em; 
+    font-family: Arial, Helvetica, sans-serif;  
     font-size: 1.2em;
 }
 
@@ -175,8 +175,8 @@
 }
 
 #experiencias ul {
-    
-    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
 }
 
 .footer {
@@ -191,16 +191,6 @@
     color: var(--azul)
 }
 
-#link-home{
-    position: fixed;
-    right: 20px;
-    bottom: 30px;
-    color: var(--laranja);
-    background-color: var(--branco);
-    border-radius: 50%;
-    z-index: 100%;
-    font-size: 3em;
-}
 
 /* Responsividade */
 
@@ -214,7 +204,7 @@
 
     #sobre {
         width: 100%;
-        height: 70vh;
+        height: 100%;
         padding: 1em;
         flex-wrap: wrap;      
     }         
@@ -233,7 +223,6 @@
 
     #cursos {
         width: 100%;
-        height: 90vh;        
+        height: 100%;        
     }
-
 }
