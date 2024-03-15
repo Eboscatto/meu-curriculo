@@ -87,7 +87,7 @@
 #sobre {
     width: 100vw;
     height: 100vh;
-    padding: 1em 4em;
+    padding: 4em 4em;
     flex-wrap: wrap; 
     font-size: 15px; 
 }
@@ -191,6 +191,16 @@
     color: var(--azul)
 }
 
+#link-home {
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+    color: var(--laranja);
+    background-color: var(--branco);
+    border-radius: 50%;
+    z-index: 100%;
+    font-size: 3em;
+}
 
 /* Responsividade */
 
