@@ -88,7 +88,7 @@
 #sobre {
     width: 80%;
     height: 50vh;
-    padding: 4em;    
+    padding: 2em;    
     flex-wrap: wrap;      
 }
 
@@ -97,7 +97,7 @@
     text-align: justify;   /* Justifica o texto */
     /* text-indent: 2em;      /* Recuo da primeira linha */
     margin-left: 120px;     /* Recuo de todo o parágrafo */
-    margin-right: 10px;    /* Mantém equilíbrio visual */
+    margin-right: 20px;    /* Mantém equilíbrio visual */
     margin-bottom: 1em;    /* Espaço entre parágrafos */
 
    
