@@ -149,6 +149,7 @@
 }
 
 #escolaridade li {
+    margin-left: 120px;     /* Recuo de todo o parágrafo */
     padding-right: 2em;
 }#competencias {
     width: 100%;
