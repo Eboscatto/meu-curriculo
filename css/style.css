@@ -148,10 +148,16 @@
     padding-top: 2em;    
 }
 
-#escolaridade li {
+
+#escolaridade ol {
     margin-left: 120px;     /* Recuo de todo o parágrafo */
+}
+
+#escolaridade li {    
     padding-right: 2em;
-}#competencias {
+}
+
+#competencias {
     width: 100%;
     min-height: 50vh;
     background-color: var(--azul);
